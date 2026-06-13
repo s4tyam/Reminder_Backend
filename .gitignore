@@ -1,0 +1,14 @@
+target/
+*.class
+*.jar
+*.war
+.idea/
+*.iml
+.mvn/
+mvnw
+mvnw.cmd
+.DS_Store
+
+# Keep secrets out of GitHub - set these as Railway env vars instead
+src/main/resources/application.properties
+src/main/resources/application-prod.properties
